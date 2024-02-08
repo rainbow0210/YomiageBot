@@ -8,8 +8,11 @@
 * windowsにffmpegをインストールする | ぱーくん plus idea:[https://plus-idea.net/windows-ffmpeg/](https://plus-idea.net/windows-ffmpeg/)
 
 ## DiscordBotの権限等
-* 権限
+* 権限（招待URLが写っていますが、Botユーザーを削除済みなのでご心配なく！）
 ![権限](https://github.com/rainbow0210/YomiageBot/blob/main/images/permission.png?raw=true)
+
+* インテンツの設定
+![インテンツの設定](https://github.com/rainbow0210/YomiageBot/blob/main/images/intents.png?raw=true)
 
 ## Bot本体の動かし方
 
