@@ -1,8 +1,12 @@
+import re
 import subprocess
 
 def creat_WAV(inputText):
-        #message.contentをテキストファイルに書き込み
+    #message.contentをテキストファイルに書き込み
     input_file = 'input.txt'
+
+    pattern = r'<:[a-zA-Z0-9_]+:[0-9]+>'    # カスタム絵文字のパターン
+    inputText = re.sub(pattern,'',inputText)   # 置換処理
 
     with open(input_file,'w',encoding='shift_jis') as file:
         file.write(inputText)
